@@ -1,0 +1,43 @@
+# ---------------------------------------------------
+# OS Generated Files (Sistem Operasi)
+# ---------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------
+# Editor & IDE (Konfigurasi Lokal)
+# ---------------------------------------------------
+.vscode/
+.idea/
+*.suo
+*.swp
+*.swo
+
+# ---------------------------------------------------
+# Log Files (Catatan Error/Sistem)
+# ---------------------------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------------------------------
+# Dependencies & Caches (Persiapan Pengembangan)
+# ---------------------------------------------------
+node_modules/
+.cache/
+.parcel-cache/
+
+# ---------------------------------------------------
+# Build / Output Directories
+# ---------------------------------------------------
+dist/
+build/
+out/
