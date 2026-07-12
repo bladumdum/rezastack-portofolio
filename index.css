@@ -6,13 +6,21 @@
 
 :root {
   --background-neutral-primary: #ebfff2;
+
+  --text-neutral-primary: #111412;
   --text-neutral-tertiary: #323b35;
 }
 
 /* pengaturan halaman statis */
+html {
+  scroll-behavior: smooth;
+  background-color: #000;
+}
+
 body {
   font-family: "Poppins";
   background-color: var(--background-neutral-primary);
+  color: var(--text-neutral-primary);
 }
 
 :is(h1, h2, h3, h4, h5, h6) {

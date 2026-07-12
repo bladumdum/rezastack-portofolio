@@ -15,18 +15,40 @@
     <!-- header sect -->
     <header>
       <div class="container">
-        <a class="header-logo" aria-label="back to homepage">
+        <a href="#home" class="header-logo" aria-label="back to homepage">
           <img src="assets/header/logo.svg" alt="RezaStack logo">
           <span>RezaStack</span>
         </a>
 
-        <ul class="menu-list">
-          <li class="menu-item"><a href="">Home</a></li>
-          <li class="menu-item"><a href="">Home</a></li>
-          <li class="menu-item"><a href="">Home</a></li>
-          <li class="menu-item"><a href="">Home</a></li>
-          <li class="menu-item"><a href="">Home</a></li>
-        </ul>
+        <nav class="nav-menu">
+          <ul class="menu-list">
+            <li class="menu-item active">
+              <a href="#home">Home</a>
+            </li>
+            <li class="menu-item">
+              <a href="#about">About</a>
+            </li>
+            <li class="menu-item">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="menu-item">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="menu-item">
+              <a href="#experience">Experience</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#home" class="btn-cta">
+          View Project
+        </a>
+
+        <button type="button" class="hamburger-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
       </div>
     </header>
 
@@ -34,6 +56,8 @@
 
     <footer></footer>
   </div>
+
+  <script src="script/header.js"></script>
 
 </body>
 
