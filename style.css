@@ -1,2 +1,107 @@
 @import url(reset.css);
 @import url(index.css);
+
+:root {
+  /* background color */
+  --background-neutral-primary: #ebfff2;
+
+  --background-colors-white: #fff;
+  --background-colors-yellow: #e1c847;
+  --background-colors-pink: #e147ac;
+  --background-colors-blue: #475fe1;
+  --background-colors-black: #000;
+  --background-colors-white: #000;
+
+  --background-brand: #14ff65;
+  --background-brand-secondary: #a1ffc1;
+
+  /* text */
+  /* text neutral */
+  --text-neutral-primary: #111412;
+  --text-neutral-secondary: #212823;
+  --text-neutral-tertiary: #323b35;
+
+  /* text inverse */
+  --text-neutral-inverse-primary: #f4f5f5;
+  --text-neutral-inverse-secondary: #dde0de;
+
+  /* typography */
+  /* headings */
+  --font-headings-big: 5.25rem;
+  --font-headings-h1: 4.5rem;
+  --font-headings-h2: 3.5rem;
+  --font-headings-h3: 2.5rem;
+  --font-headings-h4: 2rem;
+  --font-headings-h4: 1.5rem;
+  --font-headings-h4: 1.25rem;
+
+  /* body */
+  /* large */
+  --font-body-large-base: 1.125rem;
+
+  /* medium */
+  --font-body-large-base: 1rem;
+
+  /* small */
+  --font-body-large-base: 0.875rem;
+
+  /* captions */
+  --font-captions-caption: 0.75rem;
+  --font-captions-footnote: 0.625rem;
+
+  /* font weight */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* brutalist */
+  /* neutral */
+  --shadow-neutral-sm: 0.125rem 0.125rem 0 0 #000;
+  --shadow-neutral-md: 0.25rem 0.25rem 0 0 #000;
+  --shadow-neutral-lg: 0.375rem 0.375rem 0 0 #000;
+  --shadow-neutral-lg: 0.375rem 0.375rem 0 0 #000;
+  --shadow-neutral-xl: 0.5rem 0.5rem 0 0 #000;
+
+  /* inverse */
+  --shadow-inverse-sm: 0.125rem 0.125rem 0 0 #fff;
+  --shadow-inverse-md: 0.25rem 0.25rem 0 0 #fff;
+  --shadow-inverse-lg: 0.375rem 0.375rem 0 0 #fff;
+
+  /* sizes */
+  /* radius */
+  --radius-xxs: 0.125rem;
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+
+  /* borders */
+  /* neutral */
+  --borders-neutral-sm: 0.125rem;
+  --borders-neutral-md: 0.25rem;
+  --borders-neutral-md: 0.375rem;
+}
+
+/* wrapper sect */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 7.5rem;
+  grid-area: "header" "main" "footer";
+}
+
+.wrapper header {
+  background-color: var(--background-colors-white);
+  border-top: var(--borders-neutral-sm);
+
+  grid-area: header;
+}
+
+.wrapper main {
+  grid-area: main;
+}
+
+.wrapper footer {
+  background-color: var(--background-colors-black);
+  grid-area: footer;
+}
