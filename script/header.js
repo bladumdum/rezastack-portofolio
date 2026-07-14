@@ -1,4 +1,4 @@
-const menuList = document.querySelectorAll(".menu-list .menu-item");
+let menuList = document.querySelectorAll(".menu-list .menu-item");
 
 menuList.forEach((list) => {
   list.addEventListener("click", function (e) {

@@ -16,7 +16,7 @@
     <header>
       <div class="container">
         <a href="#home" class="header-logo" aria-label="back to homepage">
-          <img src="assets/header/logo.svg" alt="RezaStack logo">
+          <img src="assets/header/logo.svg" alt="RezaStack logo" loading="lazy">
           <span>RezaStack</span>
         </a>
 
@@ -56,7 +56,7 @@
     <main>
 
       <!-- hero sect -->
-      <section id="#home" class="hero-section">
+      <section id="home" class="hero-section">
         <div class="container">
           <div class="hero-content">
             <div class="container-left">
@@ -76,17 +76,17 @@
             </div>
 
             <div class="container-right">
-              <img src="assets/hero/hero-img.svg" alt="" loading="lazy">
+              <img src="assets/hero/hero-img.svg" alt="Muhammad Dwi Reza Image" loading="lazy">
             </div>
           </div>
         </div>
       </section>
 
-      <section id="#about" class="about-section">
+      <section id="about" class="about-section">
         <div class="container">
           <div class="about-content">
-            <div class="container-left">
-              <h2 class="about-title">About Me</h2>
+            <div class="container-left" aria-labelledby="about-me">
+              <h2 class="about-title" id="about-me">About Me</h2>
               <p class="about-desc">
                 Saya adalah mahasiswa yang berfokus pada Frontend Development dan UI/UX Design. Saya senang mengubah ide
                 menjadi antarmuka yang menarik, mudah digunakan, dan memberikan pengalaman pengguna yang menyenangkan.
@@ -94,7 +94,7 @@
             </div>
 
             <div class="container-right">
-              <img src="assets/about/personal-info.svg" alt="" class="about-img">
+              <img src="assets/about/personal-info.svg" loading="lazy" alt="" class="about-img">
             </div>
           </div>
         </div>
@@ -106,27 +106,35 @@
             <h2 class="skills-title">Skills</h2>
             <ul class="skill-list">
               <li class="skill-item">
-                <img src="assets/skills/frontend.svg" alt="a frontend image">
-                <h3>Frontend</h3>
-                <p>HTML, CSS, JavaScript, Tailwind, React</p>
+                <img src="assets/skills/frontend.svg" loading="lazy" alt="a frontend image">
+                <div class="skill-desc">
+                  <h5>Frontend</h5>
+                  <p>HTML, CSS, JavaScript, Tailwind, React</p>
+                </div>
               </li>
 
               <li class="skill-item">
-                <img src="assets/skills/frontend.svg" alt="a frontend image">
-                <h3>Frontend</h3>
-                <p>HTML, CSS, JavaScript, Tailwind, React</p>
+                <img src="assets/skills/backend.svg" loading="lazy" alt="a frontend image">
+                <div class="skill-desc">
+                  <h5>Backend</h5>
+                  <p>Python, MySQL</p>
+                </div>
               </li>
 
               <li class="skill-item">
-                <img src="assets/skills/frontend.svg" alt="a frontend image">
-                <h3>Frontend</h3>
-                <p>HTML, CSS, JavaScript, Tailwind, React</p>
+                <img src="assets/skills/ui-ux.svg" loading="lazy" alt="a frontend image">
+                <div class="skill-desc">
+                  <h5>UI/UX</h5>
+                  <p>Figma</p>
+                </div>
               </li>
 
               <li class="skill-item">
-                <img src="assets/skills/frontend.svg" alt="a frontend image">
-                <h3>Frontend</h3>
-                <p>HTML, CSS, JavaScript, Tailwind, React</p>
+                <img src="assets/skills/tools.svg" loading="lazy" alt="a frontend image">
+                <div class="skill-desc">
+                  <h5>Tools</h5>
+                  <p>VSCode</p>
+                </div>
               </li>
             </ul>
           </div>
