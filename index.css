@@ -29,6 +29,8 @@
 
   /* small */
   --font-body-small: 0.875rem;
+
+  scroll-behavior: smooth;
 }
 
 .wrapper {

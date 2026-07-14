@@ -486,6 +486,7 @@ main section .container {
   /* main sect */
   main section {
     padding: 2rem 0;
+    scroll-margin-top: 5rem;
   }
 
   /* hero sect */
