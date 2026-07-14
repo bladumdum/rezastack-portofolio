@@ -11,16 +11,22 @@
   --text-neutral-tertiary: #323b35;
 }
 
+.wrapper {
+  overflow-x: hidden;
+}
+
 /* pengaturan halaman statis */
 html {
   scroll-behavior: smooth;
   background-color: #000;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Poppins";
   background-color: var(--background-neutral-primary);
   color: var(--text-neutral-primary);
+  overflow-x: hidden;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
