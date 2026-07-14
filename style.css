@@ -248,10 +248,28 @@ header .container {
 }
 
 /* mobile break point */
-@media (max-width: 640px) {
+@media (max-width: 824px) {
   header .container {
     grid-template-columns: max-content max-content;
     justify-content: space-between;
+  }
+
+  .header-logo span {
+    font-size: var(--font-body-medium);
+  }
+
+  .header-logo img {
+    height: 2rem;
+  }
+
+  .menu-list {
+    gap: 1.125rem;
+    font-size: var(--font-body-small);
+  }
+
+  .btn-cta {
+    padding: 0.25rem 1rem;
+    font-size: var(--font-body-small);
   }
 
   .nav-menu {
@@ -289,10 +307,6 @@ header .container {
 
   .menu-list .menu-item {
     width: fit-content;
-  }
-
-  .header-logo img {
-    height: 2.5rem;
   }
 
   .header-logo span {
