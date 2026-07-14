@@ -164,12 +164,13 @@ header .container {
   gap: 1.5rem;
 }
 
-.menu-list .menu-item {
+.menu-list .menu-item a {
+  display: inline-block;
   position: relative;
   padding: 0 0 0.5rem;
 }
 
-.menu-list .menu-item::after {
+.menu-list .menu-item a::after {
   content: "";
   background-color: var(--background-brand-secondary);
   width: 100%;
@@ -183,16 +184,16 @@ header .container {
   left: 0;
 }
 
-:is(.menu-list) .menu-item:hover::after {
+:is(.menu-list) .menu-item a:hover::after {
   transform: scaleX(1);
 }
 
-:is(.menu-list) .menu-item.active::after {
+:is(.menu-list) .menu-item a.active::after {
   background-color: var(--background-brand-primary);
   transform: scaleX(1);
 }
 
-:is(.menu-list .menu-item.active) a {
+:is(.menu-list .menu-item) a.active {
   color: var(--text-neutral-primary);
 }
 
