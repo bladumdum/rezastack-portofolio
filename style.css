@@ -255,24 +255,19 @@ header .container {
 /* hero sect */
 main section {
   width: 100%;
-}
-
-main section .container {
-  width: inherit;
-}
-
-main section .container:has(.hero-content) {
   padding: 6rem 0;
   display: grid;
   place-items: center;
 }
 
-.hero-content {
+main section .container {
   max-width: 1200px;
+  padding: 0 1.5rem 0;
+}
 
+.hero-content {
   display: flex;
   justify-content: space-between;
-  padding: 0 1.5rem 0;
 }
 
 .container-left {
@@ -311,6 +306,22 @@ p {
   width: 100%;
 }
 
+/* about sect */
+.about-section {
+  background-color: var(--background-colors-green);
+  padding: 6rem 0;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-content .container-right > img {
+  /* min-width: 600px; */
+}
+
 /* small laptop */
 @media (max-width: 1200px) {
   .container-left {
@@ -320,10 +331,6 @@ p {
   .hero-title {
     font-size: calc(var(--font-headings-h1) - 2rem);
   }
-
-  /* :is(h2) {
-    font
-  } */
 }
 
 /* tablet/mobile bp */
