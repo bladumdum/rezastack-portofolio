@@ -322,8 +322,14 @@ main section .container {
   gap: 2rem;
 }
 
+.about-content .container-right {
+  min-width: 250px;
+  width: 100%;
+}
+
 .about-content .container-right .about-img {
   min-width: 250px;
+  width: 100%;
 }
 
 /* Skills Sect */
