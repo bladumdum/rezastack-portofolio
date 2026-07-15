@@ -275,6 +275,7 @@ main section .container {
 .hero-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero-content .container-left {
@@ -292,6 +293,10 @@ main section .container {
 .btns-container {
   display: flex;
   gap: 2rem;
+}
+
+.container-right {
+  height: fit-content;
 }
 
 .hero-content .container-right > img {
@@ -662,7 +667,7 @@ main section .container {
 
   /* main sect */
   main section {
-    padding: 2rem 0;
+    padding: 5rem 0;
     scroll-margin-top: 5rem;
   }
 
@@ -722,7 +727,7 @@ main section .container {
   }
 
   h3 {
-    font-size: calc(var(--font-headings-h3) - 1.5rem);
+    font-size: calc(var(--font-headings-h3) - 1rem);
   }
 
   .header-logo .logo-img {
