@@ -375,6 +375,11 @@ main section .container {
   transform: translate(0.125rem, 0.125rem);
 }
 
+.skill-item:active {
+  transform: translate(0.25rem, 0.25rem);
+  box-shadow: none;
+}
+
 .skill-item > img {
   width: 100%;
   border-bottom: var(--borders-sm) solid var(--background-colors-black);
