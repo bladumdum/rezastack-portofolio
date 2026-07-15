@@ -21,3 +21,14 @@ menuList.forEach((list) => {
     navMenu.classList.remove("active");
   });
 });
+
+const noWa = "6285828380916";
+const pesanDefault = `Halo min, Saya tertarik dengan layanan anda.
+
+Nama:
+Kebutuhan:
+Mohon infonya ya, terimakasih`;
+
+const linkWa = `https://wa.me/${noWa}?text=${encodeURIComponent(pesanDefault)}`;
+
+document.querySelector("#final-btn").href = linkWa;
