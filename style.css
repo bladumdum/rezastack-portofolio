@@ -464,6 +464,11 @@ main section .container {
   filter: brightness(0.95);
 }
 
+.project-img:active {
+  transform: translate(0.375rem, 0.375rem);
+  box-shadow: 0 0 0 #000;
+}
+
 /* education & experience sect  */
 .edu-experience {
   background-color: var(--background-colors-pink);
