@@ -611,6 +611,25 @@ footer .content-left .footer-logo {
   align-items: center;
 }
 
+.social-media-icon {
+  padding: 0.125rem 0.125rem 0.25rem 0.25rem;
+  transition: var(--transition-base);
+  border: var(--borders-sm) solid var(--background-colors-white);
+  border-radius: var(--radius-xxs);
+}
+
+.social-media-icon:hover {
+  filter: brightness(2);
+  filter: contrast(1.2);
+  box-shadow: var(--shadow-inverse-md);
+  transform: translate(-0.25rem, -0.25rem);
+}
+
+.social-media-icon:active {
+  box-shadow: 0 0 0 var(--background-colors-white);
+  transform: translate(-0.125rem, -0.125rem);
+}
+
 .email-group {
   display: flex;
   flex-direction: column;
