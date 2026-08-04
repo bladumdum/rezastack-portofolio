@@ -40,6 +40,7 @@
 /* pengaturan halaman statis */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
   background-color: #000;
   overflow-x: hidden;
 }
