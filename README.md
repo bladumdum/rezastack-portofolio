@@ -58,7 +58,7 @@ index.html
 
 ## Usage
 
-Navigae using the menu.
+Navigate using the menu.
 
 Click "View Projects" to see my projects.
 
