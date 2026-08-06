@@ -27,12 +27,6 @@
 
   /* small */
   --font-body-small: 0.875rem;
-
-  scroll-behavior: smooth;
-}
-
-.wrapper {
-  overflow-x: hidden;
 }
 
 /* pengaturan halaman statis */
@@ -40,14 +34,18 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
   background-color: #000;
-  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
   font-family: "Poppins";
   background-color: var(--background-neutral-primary);
   color: var(--text-neutral-primary);
-  overflow-x: hidden;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {

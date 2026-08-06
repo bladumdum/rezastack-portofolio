@@ -12,9 +12,8 @@
 }
 
 /* 3. Mengizinkan tinggi berbasis persentase untuk aplikasi */
-html,
 body {
-  height: 100%;
+  min-height: 100vh;
 }
 
 /* 4. Penyesuaian tipografi dasar agar lebih rapi dan mudah dibaca */
