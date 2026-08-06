@@ -29,6 +29,11 @@
   --font-body-small: 0.875rem;
 }
 
+::selection {
+  background-color: var(--background-brand-primary);
+  color: var(--background-brand-tertiary);
+}
+
 /* pengaturan halaman statis */
 html {
   scroll-behavior: smooth;
