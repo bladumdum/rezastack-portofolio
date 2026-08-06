@@ -34,6 +34,26 @@
   color: var(--background-brand-tertiary);
 }
 
+/* scrollbar dimention */
+::-webkit-scrollbar {
+  width: 0.75rem;
+  height: calc(0.75rem * 2 - (0.75rem * 0.25));
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-brand-tertiary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--background-brand-primary);
+  border-radius: var(--radius-xxs);
+  transition: var(--transition-base);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #49ff89;
+}
+
 /* pengaturan halaman statis */
 html {
   scroll-behavior: smooth;
