@@ -133,6 +133,7 @@ header .container {
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* header logo sect */
@@ -153,10 +154,6 @@ header .container {
 /* header menu sect */
 
 .nav-menu {
-  display: flex;
-  gap: 2rem;
-  align-items: baseline;
-
   transition: all 0.2s ease;
   z-index: 9999;
 }
@@ -871,6 +868,10 @@ footer .content-left .footer-logo {
     white-space: wrap;
     height: fit-content;
     font-size: var(--font-body-large);
+  }
+
+  .btn-cta.cta-hidden {
+    display: none;
   }
 
   .hamburger-menu {
