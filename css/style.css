@@ -153,10 +153,9 @@ header .container {
 /* header menu sect */
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: 1fr min-content;
-  justify-items: center;
-  align-items: center;
+  display: flex;
+  gap: 2rem;
+  align-items: baseline;
 
   transition: all 0.2s ease;
   z-index: 9999;
