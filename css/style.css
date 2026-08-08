@@ -131,8 +131,8 @@ header .container {
   max-width: 1200px;
   padding: 0 1.5rem 0;
 
-  display: grid;
-  grid-template-columns: max-content 1fr;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* header logo sect */
@@ -885,7 +885,7 @@ footer .content-left .footer-logo {
 
   .hamburger-menu .bar {
     display: inline-block;
-    min-width: 2rem;
+    min-width: 1.75rem;
     height: 0.25rem;
     background-color: var(--background-colors-black);
     border-radius: var(--radius-xxs);
@@ -1009,7 +1009,7 @@ footer .content-left .footer-logo {
   }
 
   .header-logo .logo-label {
-    font-size: var(--font-body-medium);
+    font-size: var(--font-body-small);
   }
 
   .about-section .container .about-content {
