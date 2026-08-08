@@ -574,6 +574,8 @@ footer .container {
   width: 100%;
   padding: 5rem 1.5rem 5rem;
   color: var(--text-inverse-tertiary);
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-content {
@@ -956,11 +958,18 @@ footer .content-left .footer-logo {
     width: 100%;
   }
 
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .footer-content .content {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     gap: 5rem;
+    max-width: max-content;
   }
 
   .footer-content .content .footer-logo {
@@ -975,6 +984,7 @@ footer .content-left .footer-logo {
   .footer-content .content-navmap {
     font-size: var(--font-body-large);
     gap: 3rem;
+    align-self: self-start;
   }
 
   :is(.footer-content .content-navmap) .navmap-left,
