@@ -129,7 +129,7 @@ header {
 header .container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 1.5rem 0;
+  padding: 0 1rem 0;
 
   display: flex;
   justify-content: space-between;
@@ -266,7 +266,7 @@ main section:not(:last-child) {
 main section .container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 1.5rem 0;
+  padding: 0 1rem 0;
 }
 
 /* hero sect */
@@ -568,7 +568,7 @@ footer {
 footer .container {
   max-width: 1200px;
   width: 100%;
-  padding: 5rem 1.5rem 5rem;
+  padding: 5rem 1rem 5rem;
   color: var(--text-inverse-tertiary);
   display: flex;
   flex-direction: column;
@@ -1091,19 +1091,27 @@ footer .content-left .footer-logo {
   .email-container {
     padding: 0.5rem 0.75rem;
   }
+
+  .hero-content .container-right > img,
+  .about-content .container-right,
+  .about-content .container-right .about-img,
+  .project-img,
+  .header-logo {
+    min-width: 0;
+    width: 100%;
+  }
 }
 
 @media (max-width: 354px) {
-  .input-group label {
-    font-size: var(--font-body-small);
-  }
-  :is(.email-container .input-group) input,
-  input::placeholder .input-textarea::placeholder {
-    font-size: var(--font-body-small);
+  .input-container :is(input, textarea),
+  :is(input, textarea)::placeholder {
+    font-size: var(--font-body-medium);
+    width: 100%;
+    min-width: 0;
   }
 
   :is(.content-navmap) a {
-    font-size: var(--font-body-small);
+    font-size: var(--font-body-medium);
   }
 
   .copyright {
