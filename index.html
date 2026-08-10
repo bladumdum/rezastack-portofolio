@@ -42,7 +42,7 @@
         </nav>
 
 
-        <a href="#projects" class="btn-cta cta-hidden">
+        <a href="#projects" class="btn cta-hidden">
           View Project
         </a>
 
@@ -70,9 +70,9 @@
               <p>Saya merancang antarmuka yang menarik di Figma dan mengembangkan website modern, responsif, serta mudah
                 digunakan menggunakan teknologi web terkini.</p>
               <div class="btns-container hero-btn">
-                <a href="#projects" class="btn-cta">View Projects</a>
+                <a href="#projects" class="btn">View Projects</a>
 
-                <a href="#" class="btn-cta non-primary">Download CV</a>
+                <a href="#" class="btn non-primary">Download CV</a>
               </div>
             </div>
 
@@ -160,10 +160,10 @@
 
 
                   <div class="btns-container projects-btn">
-                    <a href="https://bladumdum.github.io/projek-akhir/" class="btn-cta" target="_blank"
+                    <a href="https://bladumdum.github.io/projek-akhir/" class="btn" target="_blank"
                       rel="noopener noreferrer">Live Demo</a>
 
-                    <a href="https://github.com/bladumdum/projek-akhir" class="btn-cta non-primary" target="_blank"
+                    <a href="https://github.com/bladumdum/projek-akhir" class="btn non-primary" target="_blank"
                       rel="noopener noreferrer">Github</a>
                   </div>
                 </div>
@@ -183,11 +183,11 @@
 
 
                   <div class="btns-container projects-btn">
-                    <a href="https://bladumdum.github.io/rezastack-portofolio/" class="btn-cta" target="_blank"
+                    <a href="https://bladumdum.github.io/rezastack-portofolio/" class="btn" target="_blank"
                       rel="noopener noreferrer">Live Demo</a>
 
-                    <a href="https://github.com/bladumdum/rezastack-portofolio" class="btn-cta non-primary"
-                      target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://github.com/bladumdum/rezastack-portofolio" class="btn non-primary" target="_blank"
+                      rel="noopener noreferrer">Github</a>
                   </div>
                 </div>
 
@@ -260,7 +260,7 @@
               </p>
             </div>
 
-            <a id="final-btn" class="btn-cta final-btn" href="" target="_blank" rel="noopener noreferrer"
+            <a id="final-btn" class="btn final-btn" href="" target="_blank" rel="noopener noreferrer"
               aria-label="Chat Whatsapp with me">
               Let's Talk
             </a>
@@ -300,25 +300,33 @@
 
               </div>
 
-              <form class="contact-form">
-                <div class="input-container">
-                  <div class="input-group">
-                    <input type="text" name="email-input" id="email-input" placeholder="Enter your full name here"
-                      required>
-                    <!-- <button type="submit">
-                      <img src="assets/footer/streamline_send-email.svg" alt="send icon" aria-label="send your email"> -->
-                    </button>
+              <form class="contact-form" method="post">
+                <div class="contact-container">
+                  <div class="input-container">
+                    <label for="fullname-input">
+                      <div class="input-group">
+                        <input type="text" name="fullname-input" id="fullname-input"
+                          placeholder="Enter your full name here" required>
+                        </button>
+                      </div>
+                    </label>
+
+                    <label for="email-input">
+                      <div class="input-group">
+                        <input type="email" name="email-input" id="email-input" placeholder="Enter your email here"
+                          required>
+                      </div>
+                    </label>
+
+                    <label for="message">
+                      <div class="input-group">
+                        <textarea class="input-textarea" name="message" id="message"
+                          placeholder="Enter project details here..." required></textarea>
+                      </div>
+                    </label>
                   </div>
 
-                  <div class="input-group">
-                    <input type="email" name="email-input" id="email-input" placeholder="Enter your email here"
-                      required>
-                  </div>
-
-                  <div class="input-group">
-                    <input type="email" name="email-input" id="email-input" placeholder="Enter your email here"
-                      required>
-                  </div>
+                  <button type="submit" class="btn contact-submit">Submit</button>
                 </div>
               </form>
             </div>
