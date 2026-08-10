@@ -627,60 +627,55 @@ footer .content-left .footer-logo {
   transform: translate(-0.125rem, -0.125rem);
 }
 
-.email-group {
+.input-container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
-.email-container {
+.input-group {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 2.5rem;
+  padding: 1rem 1rem;
   border: var(--borders-sm) solid var(--background-colors-white);
-  box-shadow: var(--shadow-inverse-lg);
+  box-shadow: var(--shadow-inverse-md);
   border-radius: var(--borders-md);
   transition: var(--transition-base);
-  min-width: 150px;
-  max-width: 360px;
 }
 
-.email-container:hover {
-  box-shadow: var(--shadow-inverse-md);
-  transform: translate(0.125rem, 0.125rem);
+.input-group:hover {
+  box-shadow: var(--shadow-inverse-sm);
+  transform: translate(0.0625rem, 0.05125rem);
 }
 
-.email-container:is(:active, :focus-within, button:active) {
+.input-group:is(:active, :focus-within, button:active) {
   box-shadow: none;
   transform: translate(0.25rem, 0.25rem);
 }
 
-.email-container button {
-  min-width: 56px;
-}
-
-.email-container:focus-within {
+.input-group:focus-within {
   border: var(--borders-sm) solid var(--background-brand-secondary);
 }
 
-.email-container label {
+.input-group label {
   font-size: var(--font-body-medium);
 }
 
-.email-container input {
+.input-group input {
   background-color: transparent;
   border: none;
   font-size: var(--font-body-medium);
   color: var(--background-brand-tertiary);
+  min-width: 24ch;
 }
 
-.email-container input:focus {
+.input-group input:focus {
   border: none;
   outline: none;
   caret-color: var(--background-brand-primary);
 }
 
-.email-container input::placeholder {
+.input-group input::placeholder {
   color: var(--text-inverse-disabled);
 }
 
