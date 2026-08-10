@@ -820,7 +820,6 @@ footer .content-left .footer-logo {
 
   /* header sect */
   header .container {
-    grid-template-columns: max-content max-content;
     justify-content: space-between;
   }
 
@@ -837,7 +836,6 @@ footer .content-left .footer-logo {
     transition: var(--transition-base);
     border-left: var(--borders-sm) solid var(--background-colors-black);
 
-    display: grid;
     grid-template-areas: "btn" "menu";
     grid-template-rows: max-content 1fr;
     grid-template-columns: 1fr;
