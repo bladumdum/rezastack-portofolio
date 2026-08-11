@@ -1088,10 +1088,6 @@ footer .content-left .footer-logo {
     font-size: var(--font-body-small);
   }
 
-  .email-container {
-    padding: 0.5rem 0.75rem;
-  }
-
   .hero-content .container-right > img,
   .about-content .container-right,
   .about-content .container-right .about-img,
@@ -1100,16 +1096,16 @@ footer .content-left .footer-logo {
     min-width: 0;
     width: 100%;
   }
-}
 
-@media (max-width: 354px) {
   .input-container :is(input, textarea),
   :is(input, textarea)::placeholder {
     font-size: var(--font-body-medium);
     width: 100%;
     min-width: 0;
   }
+}
 
+@media (max-width: 354px) {
   :is(.content-navmap) a {
     font-size: var(--font-body-medium);
   }
